@@ -113,6 +113,8 @@ UPDATE table1, table2 SET field1=new_value1, field2=new_value2, ... WHERE
 ```sql
 CREATE TABLE table (field1 type1, field2 type2, ...)
 CREATE TABLE table (field1 type1, field2 type2, ..., INDEX (field))
+UNIQUE INDEX
+FULLTEXT INDEX
 CREATE TABLE table (field1 type1, field2 type2, ..., PRIMARY KEY (field1))
 CREATE TABLE table (field1 type1, field2 type2, ..., PRIMARY KEY (field1,
 field2))
