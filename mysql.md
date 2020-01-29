@@ -157,6 +157,7 @@ ALTER TABLE table ALTER field1 DROP DEFAULT
 ALTER TABLE table ADD new_name_field1 type1
 ALTER TABLE table ADD new_name_field1 type1 FIRST
 ALTER TABLE table ADD new_name_field1 type1 AFTER another_field
+ALTER TABLE nom_table ADD FULLTEXT [nom_index] (colonne_index [, colonne2_index ...]); --Ajout d'un index FULLTEXT
 ALTER TABLE table DROP field1
 ALTER TABLE table ADD INDEX (field);
 ```
